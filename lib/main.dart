@@ -1,5 +1,4 @@
 import 'package:company_form_v1/Screens/home_screen.dart';
-import 'package:company_form_v1/constants.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class CompanyForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Company Form Version 1",
+      title: "Simple Form Version 1",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.red),
       home: const HomeScreen(),
